@@ -1,0 +1,169 @@
+ 
+
+
+.contact-form input {
+    font-family: 'rubik', sans-serif;
+    border: none;
+    height: 30px;
+    padding: 20px 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 27vw;
+    
+  }
+  
+
+.input-field{
+    position: relative;
+}
+
+.input-field input {
+    width: 26vw;
+    height: 60px;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 0px 15px;
+    border: 2px solid #082f69;
+    background: transparent;
+    
+    outline: none;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #FFF;
+    font-size: 19px;
+    pointer-events: none;
+    transition: .3s;
+}
+
+input:focus{
+    border: 2px solid #1CD6CE;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+  border-radius: 16px;
+    top: 0;
+    font-size: 16px;
+    padding: 0 15px;
+    background: #1CD6CE;
+}
+
+
+.input-field{
+  position: relative;
+}
+  .contact-form textarea{
+    font-family: 'rubik',sans-serif;
+    border: none;
+    height: 100px;
+    padding: 15px 30px;
+    resize: none;
+    border-radius: 6px;
+    width:27vw;
+    margin-bottom: 15px;
+    background: transparent;
+  }
+.input-field textarea{
+  
+
+    width:26vw;
+    height: 110px;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 2px solid #082f69;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+
+textarea:focus{
+  border: 2px solid #1CD6CE;
+}
+
+textarea:focus ~ label,
+textarea:valid ~ label{
+  border-radius: 16px;
+  top: 0;
+  font-size: 16px;
+  padding: 0 15px;
+  background: #1CD6CE;
+}
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-79%);
+  color: #FFF;
+  font-size: 19px;
+  pointer-events: none;
+  transition: .3s;
+}
+
+
+
+
+.email{
+    margin-top: 10px;
+    width: 40%;
+    
+    padding: 30px 50px;
+  }
+   .row{
+    margin-top: 55px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    }
+
+
+textarea:focus{
+  border: 2px solid #1CD6CE;
+}
+
+textarea:focus ~ label,
+textarea:valid ~ label{
+  border-radius: 16px;
+  top: 0;
+  font-size: 16px;
+  padding: 0 15px;
+  background: #1CD6CE;
+}
+button{
+  width:26vw;
+  height: 50px;
+  border-radius: 16px;
+  font-size: 18px;
+  padding: 15px 20px;
+  border: 2px solid #082f69;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.lo{
+  transform: translateY(80%);
+    max-width:100%;
+    height: 100%;
+    padding: 5px;
+  
+}
+@media (max-width: 768px) {
+  .contact-form input,
+  .input-field input,
+  .contact-form textarea,
+  .input-field textarea,
+  .row 
+  .email
+  
+  
+  {
+    width: 100%;
+  }
+}

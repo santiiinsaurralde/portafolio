@@ -1,0 +1,139 @@
+body {
+    font-family: system-ui;
+    color: #2d3388;
+  background-color: #078399;
+  background-image:
+      radial-gradient(at 9% 89%, hsla(215, 90%, 73%, 1) 0px, transparent 50%),
+      radial-gradient(at 72% 6%, rgb(51, 21, 133) 0px, transparent 50%),
+      radial-gradient(at 24% 19%, rgb(25, 4, 49) 0px, transparent 50%),
+      radial-gradient(at 65% 6%, rgb(21, 145, 247) 0px, transparent 50%),
+      radial-gradient(at 20% 98%, rgb(41, 27, 240) 0px, transparent 50%),
+      radial-gradient(at 44% 9%, rgb(86, 4, 161) 0px, transparent 50%),
+      radial-gradient(at 10% 9%, rgb(20, 8, 133) 0px, transparent 50%);
+  min-height: 100vh;
+    
+  }
+  
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  html{
+    font-family:'rufina' sans-serif;
+  }
+  .ui{
+    background-color:rgb(25, 25, 82);
+    margin-left: 40px;
+    width: 90vw;
+    border-radius: 80px;
+
+  }
+
+.fut{
+    
+    font-family: 'rubik',sans-serif;
+    text-align: center;
+    justify-content: center;
+     color: #8d92f0;
+    margin-top: 450px;
+   
+    border-radius: 80px;
+    font-family: 'rubik',sans-serif;
+    padding: 15px 70px 20px ;
+  
+  }
+
+.medio{
+font-size: 17px;
+  padding: 20px 50px ;
+ 
+    
+  }
+.imagen{
+  height: auto;
+    padding: 40px 15px;
+    border-radius: 40px;
+  }
+  .reve{
+    display: flex;
+    width: 53vw;
+    
+    flex-direction: row;
+    padding: 20px 20px;
+    
+  }
+  .center{
+    padding: 20px 10px;
+    max-width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+   }
+   .padded{
+    padding: 30px 15px;
+  
+  }
+  .color{
+    margin-bottom: 20px;
+  }
+  .reves{
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  .orange{
+    color: #05071b;
+  }
+
+  
+  
+ 
+   .third{
+    display:contents;
+    text-align: center;
+    width: 200vw;
+    margin: 60px;
+    padding: 5px 55px ;
+   }
+  
+ 
+  .container {
+    padding: 25px 15px;
+    width: 28vw;
+    height: 10vw;
+    
+    border-radius: 35px;
+   text-align: center;
+    
+    transition: .5s all ease;
+    transform: rotateX(60deg) scale(0.7);
+    perspective: 100px;
+    box-shadow: 0px 20px 50px #555;
+    animation: entry 1s linear 1;
+  
+  }
+  
+  
+  .container:hover {
+    cursor: pointer;
+    transform: rotate(0deg) scale(1) translateY(10px);
+    transition: .5s all ease;
+    z-index: 400;
+  }
+  
+  
+
+
+
+
+
+
+
+  
